@@ -1,27 +1,48 @@
 /*basisstijl*/
-
 body {
     font-family: tahoma, sans-serif;
-    background-color: lightcyan;
+    background-color: #ddf;
     color: black;
 }
 
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    flex: 1 1 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    flex: 1 1 100%;
+    text-decoration: none;
+    line-height: 50px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin: 1px;
+    border: 1px solid blue;
+}
+
 a:link {
-    background-color: inherit;
-    color: red;
+    background-color: #ddf;
+    color: blue;
 }
 
 a:visited {
-    background-color: inherit;
-    color: green;
+    background-color: #ddf;
+    color: black;
 }
 
 a:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: blue;
+    color: #ddf;
 }
 
 a:active {
-    background-color: inherit;
-    color: blue;
+    background-color: #ddf;
+    color: red;
 }
