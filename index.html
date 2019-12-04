@@ -4,99 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webruimte &bull; SIN</title>
-    <link rel="shortcut icon" href="https://static.sinners.be/sin/logo/sin_color.png" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Roboto', sans-serif;
-            overflow-x: hidden;
-            background-color: #f9f9f9;
-            color: black;
-        }
-
-        header {
-            min-height: 20vh;
-            background-color: lightgray;
-            color: black;
-        }
-
-        header .content {
-            background-image: url(https://static.sinners.be/sin/logo/sin_mono_no-bg.svg);
-            background-size: 12vh;
-            background-repeat: no-repeat;
-            background-position: right bottom;
-            width: 60vw;
-            margin: 0 auto;
-        }
-
-        section .content {
-            width: 60vw;
-            margin: 0 auto;
-        }
-
-        h1 {
-            padding-top: 10vh;
-        }
-
-        p {
-            padding-top: 5px;
-        }
-
-        p:first-of-type {
-            padding-top: 25px;
-        }
-
-        a {
-            color: grey;
-            background-color: #f9f9f9;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: black;
-            background-color: #f9f9f9;
-        }
-
-        @media screen and (max-width: 800px) {
-            header .content,
-            section .content {
-                width: 100vw;
-            }
-
-            h1,
-            h2,
-            p {
-                margin-left: 10px;
-            }
-
-            h2 {
-                padding-bottom: 5px;
-            }
-        }
-
-    </style>
+    <title>Homepage</title>
+    <meta name="author" content="Wouter De Smet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="stijl.css">
 </head>
 
 <body>
-<header>
-    <div class="content">
-        <h1>sinners.be</h1>
-        <h2>Persoonlijke webruimte</h2>
+   <div id="container">
+         <header>
+            <h1>Welkom op mijn webruimte!</h1>
+            <nav>
+                <h2>Mijn projecten</h2>
+                <ul>
+                    <li>Webdesign essentials
+                        <ul>
+                            <li>
+                                <a href="webdesign/skills2/r0785520skills2.html">Skillstaak 2</a>
+                            </li>
+                            <li>
+                                <a href="webdesign/skills3/r0785520skills3.html">Skillstaak 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Webdesign met HTML5
+                        <ul>
+                            <li><a href="#">Uitdaging 1</a></li>
+                            <li><a href="#">Uitdaging 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h2>Wie ben ik?</h2>
+            <p>Ik ben Wouter De Smet, student bij de IT Factory van Thomas More in Geel. Ik woon in Booischot en ben 18 jaar oud. Mijn vrije tijd spendeer ik met familie en vrienden. Ik heb bijna geen ervaring met IT maar ik ben erg gemotiveerd om het te leren.</p>
+        </article>
+        <footer>
+            <a href="http://www.thomasmore.be/">Thomas More</a> &copy; IT Factory = <a href="https://www.facebook.com/ToegepasteInformatica.ThomasMoreBE/">Toegepaste informatica</a> + <a href="https://www.facebook.com/ElektronicaICT.ThomasMoreBE/">Elektronica-ICT</a>
+        </footer>
     </div>
-</header>
-<section>
-    <div class="content">
-        <p>Om de inhoud van deze pagina te wijzigen, upload je jouw website in de public_html map op de server.</p>
-        <p>Voor meer informatie over het uploaden van je website naar onze servers kan je terrecht op de <a href="https://sinners.be/page/documentatie">documentatiepagina</a>.</p>
-    </div>
-</section>
 </body>
 
 </html>
