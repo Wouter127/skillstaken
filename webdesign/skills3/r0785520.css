@@ -31,3 +31,7 @@ body {
 
     }
 }
+
+ article div div {
+    padding: 10px;
+}
