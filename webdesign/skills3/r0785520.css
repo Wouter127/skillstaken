@@ -1,0 +1,19 @@
+@media (min-width: 576px) {
+    body {
+        background-color: yellow;
+        color: red;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: #111;
+        color: #ddd;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-color: 
+    }
+}
