@@ -11,12 +11,55 @@ body {
 
 @media (min-width: 768px) {
     body {
-        background-color: #111;
+        background-color: #000;
         color: #ddd;
     }
     
     h2 {
         font-family: 'Tomorrow', sans-serif;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0px;  
+    }
+
+    nav li {
+        flex: 1 1 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    nav a {
+        flex: 1 1 100%;
+        text-decoration: none;
+        line-height: 50px;
+        font-weight: bold;
+        padding-left: 20px;
+        margin: 1px;
+        border: 1px solid black;
+    }
+
+    a:link {
+        background-color: #222;
+        color: white;
+    }
+
+    a:visited {
+        background-color: white;
+        color: black;
+    }
+
+    a:hover {
+        background-color: white;
+        color: black;
+    }
+
+    a:active {
+        background-color: grey;
+        color: black;
     }
 }
 
@@ -28,7 +71,26 @@ body {
     
     h2 {
         font-family: 'Oranienbaum', serif;
+    }
+    
+    a:link {
+        background-color: #aaa;
+        color: black;
+    }
 
+    a:visited {
+        background-color: white;
+        color: black;
+    }
+
+    a:hover {
+        background-color: white;
+        color: black;
+    }
+
+    a:active {
+        background-color: grey;
+        color: black;
     }
 }
 
